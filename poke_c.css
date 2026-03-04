@@ -1,0 +1,21 @@
+body{
+	background-color: #89CFF0;
+	
+	
+}
+
+main{
+    width: 500px;
+	background-color: white;
+	height: 300px;
+	border: 1px solid red;
+	position: sticky;
+	
+}
+
+img {
+  width: 150px;  /* Sets a fixed width */
+  height: auto;  /* Adjusts the height proportionally */
+}
+
+

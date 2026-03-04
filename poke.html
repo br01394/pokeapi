@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Poke api project</title>
+        <link rel="stylesheet" href="poke_c.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="poke_java.js"></script>
+    </head>
+	
+	<body>
+		<main>
+			<div class="input">
+                <label for="inputName">Name or ID: </label>
+                <input id="inputName" name="inputName" type="text">
+				<button onclick="addPokemon()" type="button">Find</button>
+            </div>
+			
+			<div class="missing">
+				<img id="questionmark" src="question.png" alt="Initial Image">
+			
+			</div>
+			
+			<audio id="sound" controls>
+				<source src ="" type="audio/mpeg">
+			</audio>
+			
+			<div class="moveList">
+				<select name="moves" id="moves1"> </select>
+				<select name="moves" id="moves2"> </select>
+				<select name="moves" id="moves3"> </select>
+				<select name="moves" id="moves4"> </select>
+				
+			</div>
+			
+			<div class="add">
+				<button onclick="addTeam()" type="button">Add to team</button>
+			</div>
+			
+			<div class="team">
+			</div>
+			
+		</main>
+	
+	</body>
+	
+	
+	
+</html>
